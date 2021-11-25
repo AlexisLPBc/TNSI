@@ -43,5 +43,5 @@ class Pile:
 
 def sommet(pile):
     
-''' Renvoie la valeur au sommet de la pile mais sans la supprimer de la pile '''
+    ''' Renvoie la valeur au sommet de la pile mais sans la supprimer de la pile '''
     return pile[-1]
