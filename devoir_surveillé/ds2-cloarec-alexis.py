@@ -40,11 +40,15 @@ class Pile:
     def __repr__(self):
         return repr(self.liste)
 
-
 def sommet(pile):
     
     ''' Renvoie la valeur au sommet de la pile mais sans la supprimer de la pile '''
-    return pile[-1]
+    if est_vide(pile) == True :
+        msg = f'IndexError: pile vide'
+        return msg
+    else :
+        return pile[-1]
+    
 
 def mettre_disques(pile, n):
     '''met des disques de taille n à 1 sur la pile'''
