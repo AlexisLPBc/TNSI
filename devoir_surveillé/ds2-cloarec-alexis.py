@@ -45,3 +45,12 @@ def sommet(pile):
     
     ''' Renvoie la valeur au sommet de la pile mais sans la supprimer de la pile '''
     return pile[-1]
+
+def mettre_disques(pile, n):
+    '''met des disques de taille n à 1 sur la pile'''
+
+def creation_tours(n):
+    ''' renvoie une liste de 3 piles,
+    la première correspond à la pile des n disques,
+    les autres étant vides.'''
+
