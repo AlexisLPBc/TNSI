@@ -15,4 +15,22 @@ def background(couleur : str = 'black') :
 if __name__ == '__main__':
     display(c)
     background()
+
+# Changement d'origine au milieu de la base du canvas
+
+c.translate(800/2, 600)
+
+# réglage de l'épaisseur et de la couleur du trait
+
+c.line_width = 3
+c.stroke_style = 'yellow'
+
+# trait du tronc
+
+c.stroke_line(0, 0, 0, -150)
+
+#Affichage
+
+c
+
     
