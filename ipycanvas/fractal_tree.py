@@ -30,5 +30,4 @@ c.stroke_style = 'yellow'
 c.stroke_line(0, 0, 0, -150)
 
 
-
     
