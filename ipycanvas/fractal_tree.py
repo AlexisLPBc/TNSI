@@ -1,4 +1,8 @@
 # Création du canvas c
+from types import resolve_bases
+from typing_extensions import runtime
+
+
 c = Canvas(width = 800, height = 600)
 
 # Une fonction pour effacer la scène et redessiner un background
@@ -29,5 +33,3 @@ c.stroke_style = 'yellow'
 
 c.stroke_line(0, 0, 0, -150)
 
-
-    
